@@ -60,7 +60,7 @@
 			{
 				"TargetEntities": [
 					{
-						"name": "output/Collection.movies",
+						"name": "output/movies.csv",
 						"properties": {
 							"schema": [],
 							"dslConnectorProperties": [
@@ -94,7 +94,7 @@
 								},
 								{
 									"name": "folderPath",
-									"value": "Collection.movies"
+									"value": "movies.csv"
 								},
 								{
 									"name": "allowSchemaDrift",
@@ -119,7 +119,7 @@
 				},
 				"DataMapperMappings": [
 					{
-						"targetEntityName": "output/Collection.movies",
+						"targetEntityName": "output/movies.csv",
 						"sourceEntityName": "Collection.movies",
 						"sourceConnectionReference": {
 							"connectionName": "CosmosDbNoSql1",
@@ -136,7 +136,7 @@
 		"Policy": {
 			"recurrence": {
 				"frequency": "Minute",
-				"interval": 1
+				"interval": 15
 			},
 			"mode": "Microbatch"
 		},
