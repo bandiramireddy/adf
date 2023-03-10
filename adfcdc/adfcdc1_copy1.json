@@ -1,5 +1,5 @@
 {
-	"name": "adfcdc1",
+	"name": "adfcdc1_copy1",
 	"properties": {
 		"SourceConnectionsInfo": [
 			{
@@ -136,11 +136,10 @@
 		"Policy": {
 			"recurrence": {
 				"frequency": "Minute",
-				"interval": 1
+				"interval": 15
 			},
 			"mode": "Microbatch"
 		},
-		"status": "Started",
 		"allowVNetOverride": false
 	}
 }
