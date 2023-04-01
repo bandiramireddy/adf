@@ -1,4 +1,9 @@
 {
 	"name": "adfgsfcpjledp",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "true"
+		}
+	},
 	"location": "eastus"
 }
